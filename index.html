@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Sean Metcalf and Associates - Real Estate Agent You Can Count On</h1>
+        <h1>John Doe - Freelance Real Estate Agent</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -18,9 +18,14 @@
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Welcome to Your Dream Home</h2>
-        <p>Looking for the perfect home? I'm here to help you find it.</p>
+    <section id="home" style="display: flex; align-items: center;">
+        <div>
+            <h2>Welcome to Your Dream Home</h2>
+            <p>Looking for the perfect home? I'm here to help you find it.</p>
+        </div>
+        <div>
+            <img src="image.png" alt="Your Dream Home" style="width: 200px; margin-left: 20px;">
+        </div>
     </section>
 
     <section id="properties">
@@ -32,23 +37,22 @@
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <form id="contactForm" action="contact.php" method="POST">
-    		<label for="name">Name:</label>
-    		<input type="text" id="name" name="name" required>
+        <form id="contactForm" action="https://formspree.io/f/yourFormId" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    		<label for="email">Email:</label>
-    		<input type="email" id="email" name="email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    		<label for="message">Message:</label>
-    		<textarea id="message" name="message" required></textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
 
-    		<button type="submit">Send</button>
-	</form>
-
+            <button type="submit">Send</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Sean Metcalf Real Estate</p>
+        <p>&copy; 2024 John Doe Real Estate</p>
     </footer>
 
     <script src="script.js"></script>
