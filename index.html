@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>John Doe - Freelance Real Estate Agent</h1>
+        <h1>Sean Metcalf and Associates - Real Estate Agent You Can Count On</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -32,22 +32,23 @@
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+        <form id="contactForm" action="contact.php" method="POST">
+    		<label for="name">Name:</label>
+    		<input type="text" id="name" name="name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+    		<label for="email">Email:</label>
+    		<input type="email" id="email" name="email" required>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+    		<label for="message">Message:</label>
+    		<textarea id="message" name="message" required></textarea>
 
-            <button type="submit">Send</button>
-        </form>
+    		<button type="submit">Send</button>
+	</form>
+
     </section>
 
     <footer>
-        <p>&copy; 2024 John Doe Real Estate</p>
+        <p>&copy; 2024 Sean Metcalf Real Estate</p>
     </footer>
 
     <script src="script.js"></script>
